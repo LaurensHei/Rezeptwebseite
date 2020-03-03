@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Rezeptwebseite:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Rezeptwebseite</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Rezeptwebseite.war">
+      <element id="artifact" artifact-name="Rezeptwebseite:war exploded" />
+    </root>
+  </artifact>
+</component>

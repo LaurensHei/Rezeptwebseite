@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="CUSTOM_SCOPE_NAME" value="Unnamed" />
+  </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Rezeptwebseite:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a812cbd5-7f65-4e72-9688-dcc92cbe16d6" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="kochbuch@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="userdata@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Rezeptwebseite" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="FxmlFile" />
+        <option value="SCSS File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.hvr-sweep-to-right</find>
+      <find>login</find>
+      <find>padding</find>
+      <find>.login-inputs</find>
+      <find>col-lg</find>
+      <find>ß</find>
+      <find>addingredient</find>
+      <find>addIngre</find>
+      <find>table-dark</find>
+      <find>orange-rating-star-512</find>
+      <find>raw_</find>
+      <find>\&quot;</find>
+      <find>55</find>
+      <find>'Raleway'</find>
+      <find>input-field</find>
+      <find>clea</find>
+      <find>var</find>
+      <find>border-radius</find>
+      <find>%</find>
+      <find>&quot;informationSet&quot;</find>
+      <find>createrecipe</find>
+      <find>footer</find>
+      <find>input-field-l</find>
+      <find>star</find>
+      <find>search-img</find>
+      <find>rating</find>
+      <find>getUser</find>
+      <find>search</find>
+      <find>recipe-car</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>#login-button</replace>
+      <replace>register</replace>
+      <replace>ss</replace>
+      <replace>rating_positive</replace>
+      <replace>&quot;</replace>
+      <replace>'Source Sans Pro'</replace>
+      <replace>input-field-s</replace>
+      <replace>input-field-l</replace>
+      <replace>&quot;information_set&quot;</replace>
+      <replace>input-field-100</replace>
+    </replaceStrings>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="NamedScopeManager">
+    <scope name="Unnamed" pattern="src:*..*||src:de.laurens.rezeptwebseite.mysql.*||src:de.laurens.rezeptwebseite.utils.*||src:de.laurens.rezeptwebseite.secure.*||src:de.laurens.rezeptwebseite.servlets.login.*||src:de.laurens.rezeptwebseite.servlets.recipe.*||src:de.laurens.rezeptwebseite.servlets.search.*||src:de.laurens.rezeptwebseite.servlets.dashboard.*||src:de.laurens.rezeptwebseite.servlets.fileupload.*||src:sidebar||src:overview||src:myaccount||src:myrecipes||src:editrecipe||src:createrecipe||src:index||src:header||src:Recipe||src:de.laurens.rezeptwebseite.servlets.fileupload.FileUpload" />
+  </component>
+  <component name="ProjectId" id="1YdIpRFHulNR5WpJzEloZGvYeaF" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JSAnnotator</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/Programmieren/Rezeptwebseite/src/main/webapp/templates/header.jsp" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.16273585" />
+    <property name="project.structure.side.proportion" value="0.27421236" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programmieren\Rezeptwebseite\src\main\webapp\video" />
+      <recent name="D:\Programmieren\Rezeptwebseite\src\main\webapp\css" />
+      <recent name="D:\Programmieren\Rezeptwebseite\src\main\webapp\img\ingredients" />
+      <recent name="D:\Programmieren\Rezeptwebseite\src\main\webapp\tagsinput" />
+      <recent name="D:\Programmieren\Rezeptwebseite\src\main\webapp\dashboard" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programmieren\Rezeptwebseite\src\main\webapp\img" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.56" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://192.168.0.21:8080/" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Rezeptwebseite:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Rezeptwebseite" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53305" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Rezeptwebseite:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a812cbd5-7f65-4e72-9688-dcc92cbe16d6" name="Default" comment="" />
+      <created>1512928045547</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1512928045547</updated>
+      <workItem from="1512928046747" duration="3337000" />
+      <workItem from="1513012195655" duration="6968000" />
+      <workItem from="1513354404471" duration="665000" />
+      <workItem from="1513355072799" duration="55000" />
+      <workItem from="1513355239663" duration="249000" />
+      <workItem from="1513355523153" duration="184000" />
+      <workItem from="1513363953775" duration="2010000" />
+      <workItem from="1513434941019" duration="23673000" />
+      <workItem from="1513510652834" duration="2525000" />
+      <workItem from="1513513210592" duration="5155000" />
+      <workItem from="1513624500832" duration="4708000" />
+      <workItem from="1513710534644" duration="767000" />
+      <workItem from="1513803108492" duration="5595000" />
+      <workItem from="1513809076023" duration="322000" />
+      <workItem from="1513859129533" duration="2725000" />
+      <workItem from="1513877788105" duration="8679000" />
+      <workItem from="1513965950514" duration="5887000" />
+      <workItem from="1513980998777" duration="729000" />
+      <workItem from="1514027677972" duration="4327000" />
+      <workItem from="1514318050712" duration="8119000" />
+      <workItem from="1514373814019" duration="6349000" />
+      <workItem from="1514401441808" duration="11002000" />
+      <workItem from="1514467909082" duration="8085000" />
+      <workItem from="1514577223304" duration="397000" />
+      <workItem from="1514577846282" duration="1967000" />
+      <workItem from="1514579835461" duration="4052000" />
+      <workItem from="1514650085945" duration="11013000" />
+      <workItem from="1514717895700" duration="12503000" />
+      <workItem from="1514812393403" duration="6125000" />
+      <workItem from="1514834108912" duration="1219000" />
+      <workItem from="1514905227035" duration="2546000" />
+      <workItem from="1515092023460" duration="1733000" />
+      <workItem from="1515178029946" duration="6778000" />
+      <workItem from="1515243514359" duration="15221000" />
+      <workItem from="1515269950912" duration="7662000" />
+      <workItem from="1515432771527" duration="1685000" />
+      <workItem from="1515442620519" duration="638000" />
+      <workItem from="1515515850005" duration="1486000" />
+      <workItem from="1515688837467" duration="11069000" />
+      <workItem from="1515763498433" duration="17211000" />
+      <workItem from="1515945016580" duration="755000" />
+      <workItem from="1516046553720" duration="1511000" />
+      <workItem from="1516124168577" duration="1533000" />
+      <workItem from="1516202875986" duration="30000" />
+      <workItem from="1516218640348" duration="73000" />
+      <workItem from="1516446890767" duration="23000" />
+      <workItem from="1516447153309" duration="13027000" />
+      <workItem from="1516466971898" duration="1921000" />
+      <workItem from="1516562419274" duration="4390000" />
+      <workItem from="1516627154272" duration="1841000" />
+      <workItem from="1516730360438" duration="24000" />
+      <workItem from="1516813617829" duration="1599000" />
+      <workItem from="1517245646523" duration="1957000" />
+      <workItem from="1517320426813" duration="4750000" />
+      <workItem from="1517328190604" duration="1248000" />
+      <workItem from="1517481050498" duration="56000" />
+      <workItem from="1517481372698" duration="20524000" />
+      <workItem from="1517572066406" duration="4237000" />
+      <workItem from="1517691538875" duration="688000" />
+      <workItem from="1517743152178" duration="11408000" />
+      <workItem from="1517776215089" duration="609000" />
+      <workItem from="1517852497992" duration="1841000" />
+      <workItem from="1517926414672" duration="1587000" />
+      <workItem from="1518462953828" duration="10012000" />
+      <workItem from="1518520015759" duration="8492000" />
+      <workItem from="1518538714612" duration="6722000" />
+      <workItem from="1518606187451" duration="834000" />
+      <workItem from="1518615315079" duration="2901000" />
+      <workItem from="1518881383453" duration="6902000" />
+      <workItem from="1518950120897" duration="5750000" />
+      <workItem from="1519760540601" duration="696000" />
+      <workItem from="1519998447217" duration="317000" />
+      <workItem from="1520173563481" duration="4248000" />
+      <workItem from="1520775641633" duration="10192000" />
+      <workItem from="1520881475332" duration="545000" />
+      <workItem from="1520971133497" duration="127000" />
+      <workItem from="1520971508536" duration="4999000" />
+      <workItem from="1521221479511" duration="4732000" />
+      <workItem from="1521286858578" duration="34000" />
+      <workItem from="1521378691701" duration="7501000" />
+      <workItem from="1521996021101" duration="52000" />
+      <workItem from="1521996097095" duration="962000" />
+      <workItem from="1522086746418" duration="2018000" />
+      <workItem from="1522186746196" duration="268000" />
+      <workItem from="1522436258367" duration="1191000" />
+      <workItem from="1522501446813" duration="3231000" />
+      <workItem from="1522513074351" duration="8548000" />
+      <workItem from="1522587554676" duration="11645000" />
+      <workItem from="1523125287188" duration="2281000" />
+      <workItem from="1523190385665" duration="6856000" />
+      <workItem from="1523270583419" duration="4721000" />
+      <workItem from="1523801524615" duration="923000" />
+      <workItem from="1524840623364" duration="6823000" />
+      <workItem from="1524908857062" duration="8927000" />
+      <workItem from="1524992780415" duration="5585000" />
+      <workItem from="1525170246608" duration="7319000" />
+      <workItem from="1525546685256" duration="6340000" />
+      <workItem from="1525621700402" duration="6337000" />
+      <workItem from="1525899729172" duration="726000" />
+      <workItem from="1525947073555" duration="3147000" />
+      <workItem from="1526032699235" duration="2857000" />
+      <workItem from="1526133783434" duration="11799000" />
+      <workItem from="1526391483365" duration="3867000" />
+      <workItem from="1526824154257" duration="7482000" />
+      <workItem from="1527189942827" duration="2172000" />
+      <workItem from="1527255885578" duration="26939000" />
+      <workItem from="1527323851050" duration="505000" />
+      <workItem from="1527437682921" duration="4639000" />
+      <workItem from="1527501612472" duration="22925000" />
+      <workItem from="1527595427594" duration="4425000" />
+      <workItem from="1527663533555" duration="63000" />
+      <workItem from="1528661515436" duration="871000" />
+      <workItem from="1528918638615" duration="639000" />
+      <workItem from="1528997801401" duration="2964000" />
+      <workItem from="1529599230737" duration="1560000" />
+      <workItem from="1529604758859" duration="676000" />
+      <workItem from="1529612069411" duration="376000" />
+      <workItem from="1530632338725" duration="2839000" />
+      <workItem from="1534880375850" duration="369000" />
+      <workItem from="1534881383996" duration="685000" />
+      <workItem from="1583266231442" duration="605000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="221" y="65" key="SettingsEditor" timestamp="1583266258044">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="221" y="65" key="SettingsEditor/0.23.1440.808@0.23.1440.808" timestamp="1583266258044" />
+    <state x="374" y="261" key="com.intellij.ide.util.TipDialog" timestamp="1583266232096">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="374" y="261" key="com.intellij.ide.util.TipDialog/0.23.1440.808@0.23.1440.808" timestamp="1583266232096" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Rezeptwebseite:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27421236" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <last-edited>Laurens Heithecker</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27421236" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27421236" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27421236" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27421236" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Rezeptwebseite</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27421236" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>mysql-connector-java-5.1.45-bin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27421236" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <last-edited>Unnamed</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27421236" />
+              </list>
+            </option>
+          </splitter-proportions>
+          <order>
+            <scope name="Unnamed" />
+          </order>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

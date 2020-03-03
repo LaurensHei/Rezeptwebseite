@@ -1,0 +1,98 @@
+
+.news-list {
+    height: 80%;
+    width: 25%;
+}
+
+.news-content {
+    background-color: white;
+    height: 80%;
+    width: 65%;
+    float: right;
+    padding: 30px;
+    border: 2px solid #dbdbdb;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+
+::-webkit-scrollbar {
+    width: 14px;
+    height: 18px;
+}
+::-webkit-scrollbar-thumb {
+    height: 6px;
+    border: 4px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+    -webkit-border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+    display: none;
+}
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+
+
+.news-content h1 {
+    margin-bottom: 0;
+}
+
+.news-item {
+    background-color: aliceblue;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    border: 2px solid #dbdbdb;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.news-item:hover {
+    -webkit-box-shadow: 0 0 62px 2px rgba(48, 48, 48, 0.4);
+    -moz-box-shadow: 0 0 62px 2px rgba(48, 48, 48, 0.4);
+    box-shadow: 0 0 62px 2px rgba(48, 48, 48, 0.4);
+
+}
+
+.news-item h3 {
+    margin-top: 7px;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+.news-item h4 {
+    margin-left: 10px;
+    color: #999999;
+    font-size: 12px;
+}
+
+.news-thumbnail {
+    width: 100%;
+    height: 100%;
+}
+
+.news-description {
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    z-index: 2;
+    bottom: 0;
+
+    position: absolute;
+}
+
+.timestamp {
+    margin-bottom: 20px;
+}

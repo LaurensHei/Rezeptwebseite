@@ -1,0 +1,167 @@
+body {
+
+}
+
+header {
+    position: fixed;
+}
+
+.landing {
+    width: 100%;
+    min-height: 100%;
+}
+
+.padding {
+    padding: 30px 0;
+}
+
+#img-section {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#img-section-wrapper {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/landing2.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#top-recipes-section {
+    width: 70%;
+    height: 400px;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+#last-published-section {
+    width: 70%;
+    height: 400px;
+    border-top: 1px solid #dbdbdb;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.recipe-card {
+    height: 300px;
+    width: 200px;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    position: relative;
+    margin-right: 20px;
+}
+
+.recipe-card-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.card-top {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 0;
+}
+
+.card-bottom {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    border-top: 1px solid #dbdbdb;
+}
+
+.card-informations {
+    padding-left: 20px;
+}
+
+.image-block {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 20px;
+}
+
+#title {
+    padding-top: 15%;
+    font-size: 72px;
+    text-shadow: 0px 0px 21px rgba(255, 255, 255, 1);
+    position: fixed;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.arrows {
+    width: 60px;
+    height: 72px;
+    position: absolute;
+    left: 50%;
+    margin-left: -30px;
+    bottom: 20px;
+}
+
+.arrows path {
+    stroke: #ffffff;
+    fill: transparent;
+    stroke-width: 1px;
+    animation: arrow 2s infinite;
+    -webkit-animation: arrow 2s infinite;
+}
+
+@keyframes arrow {
+    0% {
+        opacity: 0
+    }
+    40% {
+        opacity: 1
+    }
+    80% {
+        opacity: 0
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+    0% {
+        opacity: 0
+    }
+    40% {
+        opacity: 1
+    }
+    80% {
+        opacity: 0
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+.arrows path.a1 {
+    animation-delay: -1s;
+    -webkit-animation-delay: -1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+    animation-delay: -0.5s;
+    -webkit-animation-delay: -0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {
+    animation-delay: 0s;
+    -webkit-animation-delay: 0s; /* Safari 和 Chrome */
+}

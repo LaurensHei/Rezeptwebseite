@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content {
+    min-width: 100%;
+    min-height: 100%;
+    background: linear-gradient(45deg, rgba(204, 252, 152, 0.89), rgba(12, 165, 115, 0.89));
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    position: relative;
+    background-color: #ffffff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    width: 415px;
+    height: 443px;
+    opacity: 1;
+    display: table;
+}
+
+.register-container {
+    position: relative;
+    background-color: #ffffff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    width: 415px;
+    height: 500px;
+    opacity: 1;
+    display: table;
+}
+
+.login-form {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.login-title {
+    font-size: 26px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.input-wrapper {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+
+.button-wrapper {
+    width: auto;
+    text-align: center;
+}
+
+#email-label, #password-label, #name-label {
+    color: red;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #background-video {
+        display: none;
+    }
+
+    .login-container {
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+    .content {
+        background-color: #ffffff;
+    }
+}

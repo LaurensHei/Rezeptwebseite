@@ -1,0 +1,48 @@
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main main main'
+    'menu main main main main main';
+  grid-gap: 10px;
+  /*padding: 35px;*/
+  height: 90%;
+  grid-template-rows: 70px 70px 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.grid-container > div > h3 {
+    text-align: center;
+}
+
+.head-section {
+    grid-area: header;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.sidebar {
+    grid-area: menu;
+    border-right: 1px solid #dbdbdb;
+}
+
+.main-section {
+    grid-area: main;
+}
+
+.category-wrapper {
+    text-align: left;
+}
+
+.category-list-item {
+    display: block;
+    padding: 4px 0;
+}
+
+

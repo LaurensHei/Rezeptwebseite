@@ -1,0 +1,164 @@
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, init-scale=1.0">
+    <title>Rezept eintragen</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/dashboard.css">
+</head>
+<body>
+<header>
+   
+</header>
+
+
+<div class="content">
+    <h1>Rezept eintragen</h1>
+
+    <div class="input-field-l">
+        <strong style="margin-top: 20px">Titel</strong>
+        <input type="text" id="title"/>
+    </div>
+    
+    <div class="input-field-l">
+        <strong style="margin-top: 20px">Informationen</strong>
+        <input type="text" id="time" placeholder="Minuten" style="width: 10%;">
+        <input type="text" id="kcal" placeholder="kcal" style="width: 10%;">
+        <input type="text" id="persons" placeholder="Personen" style="width: 10%;">
+    </div>
+    
+    <div class="input-field-l">
+        <strong style="margin-top: 20px">Zutaten</strong>
+        <div class="ingredients-container">
+            <input type="text" id="ingredient-input" style="max-width: 55%; margin-right: 5%">
+            <input type="text" id="ingredient-amount" style="max-width: 10%;">
+            <select name="Menge" id="ingredient-unit" style="max-width: 20%; margin-right: 3%;">
+                <option value="Bund">Bund</option>
+                <option value="Centiliter">Centiliter</option>
+                <option value="Deziliter">Deziliter</option>
+                <option value="Esslöffel">Esslöffel</option>
+                <option value="Gramm">Gramm</option>
+                <option value="Kilogramm">Kilogramm</option>
+                <option value="Liter">Liter</option>
+                <option value="Mass">Mass</option>
+                <option value="Messerspitze">Messerspitze</option>
+                <option value="Milliliter">Milliliter</option>
+                <option value="Milligramm">Milligramm</option>
+                <option value="Pfund">Pfund</option>
+                <option value="Prise">Prise</option>
+                <option value="Scheibe">Scheibe</option>
+                <option value="Schuss">Schuss</option>
+                <option value="Spritzer">Spritzer</option>
+                <option value="Stück">Stück</option>
+                <option value="Tasse">Tasse</option>
+                <option value="Teelöffel">Teelöffel</option>
+                <option value="Tropfen">Tropfen</option>
+            </select>
+            <button class="button button-ok" id="add-ingredient" style="max-width: 5% padding-right:0; padding-left: 0;">Ok</button>
+        </div>
+        
+        <table id="ingredient-table">
+            <tr>
+                <th>Zutat</th>
+                <th>Menge</th>
+                <th>-</th>
+            </tr>
+            <tr>
+                <td>Nudeln</td>
+                <td>200 Gramm</td>
+                <td>-</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="input-field-l">
+        <strong style="margin-top: 20px">Zubereitung</strong>
+        <textarea id="instruction" cols="30" rows="10"></textarea></textarea>
+    </div>
+
+    <div class="input-field-l">
+        <strong style="margin-top: 20px">Keywords</strong>
+        <input type="text" id="keywords">
+    </div>
+
+    <div class="input-field-l">
+        <button class="button" id="submit" style="float: right;">Rezept veröffentlichen</button>
+    </div>
+    
+    <div style="display: none">
+        <input type="text" id="cr-title">
+        <input type="text" id="cr-ingredients">
+        <input type="text" id="cr-instruction">
+        <input type="text" id="cr-keywords">
+        <input type="text" id="cr-id">
+    </div>
+</div>
+
+<footer>
+    <p>&copy 2018 Laurens Heithecker</p>
+</footer>
+
+<script>
+    document.getElementById('add-ingredient').onclick = function() {
+        //getting values from input
+        var ingredient_name = document.getElementById('ingredient-input');
+        var ingredient_amount = document.getElementById('ingredient-amount');
+        var ingredient_unit = document.getElementById('ingredient-unit');
+        var str_unit = ingredient_unit.options[ingredient_unit.selectedIndex].value;
+        
+        //getting table
+        var table = document.getElementById('ingredient-table');
+        
+        //create row
+        var row = table.insertRow(1);
+        
+        //Insert new cells into the row
+        var cell1 = row.insertCell(0);
+        var cell2 = row.insertCell(1);
+        var cell3 = row.insertCell(2);
+        
+        //fill the new cells with the input above
+        cell1.innerHTML = ingredient_name.value;
+        cell2.innerHTML = ingredient_amount.value + ' ' + str_unit;
+        cell3.innerHTML = '-';
+        
+        //clear the input fields
+        ingredient_name.value = '';
+        ingredient_amount.value = '';
+    };
+    
+    document.getElementById('submit').onclick = function() {
+        //getting values from input
+        var title = document.getElementById('title');
+        var ingredients = JSON.stringify(tableToArray(document.getElementById('ingredient-table')));
+        var instruction = document.getElementById('instruction');
+        var keywords = JSON.stringify(document.getElementById('keywords'));
+        
+        alert(title);
+        alert(ingredients);
+        alert(instruction);
+        alert(keywords);
+    };
+    
+    function tableToArray(table) {
+            var result = [];
+            var rows = table.rows;
+            var cells, t;
+
+            for (var i=1, iLen=rows.length; i<iLen; i++) {
+                cells = rows[i].cells;
+                var item = {
+                    "ingredient" : cells[0].innerHTML,
+                    "amount" : cells[1].innerHTML
+                };
+                result.push(item);
+            }
+            return result;
+    }
+    
+</script>
+
+</body>
+</html>
+

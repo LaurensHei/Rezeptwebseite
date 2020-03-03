@@ -1,0 +1,126 @@
+
+html {
+    font-size: 16px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/** MAIN CONTENT **/
+
+a {
+    text-decoration-color: #000000;
+    color: #484848;
+}
+
+.section {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.recipe-section {
+}
+
+#title-section {
+    margin-top: 40px;
+}
+
+#ingredients-section {
+    border-top: 1px solid #DBDBDB;
+    padding-top: 10px;
+}
+
+#instruction-section {
+    border-top: 1px solid #DBDBDB;
+    padding-top: 10px;
+}
+
+.ingredient-img-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.ingredient img {
+    width: 100%;
+    max-width: 7.5em;
+}
+
+#ingredient-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#ingredient-table th {
+    height: 40px;
+}
+
+#ingredient-table th, #ingredient-table td {
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+}
+
+#ingredient-table tr:hover {
+    background-color: #f5f5f5;
+}
+
+#ingredient-table th:nth-child(1) {
+    width: 60%;
+}
+
+#ingredient-table th:nth-child(2) {
+    width: 36%;
+}
+
+.informations {
+    height: auto;
+}
+
+.time, .kcal, .persons {
+    margin-top: 10px;
+}
+
+.time img, .kcal img, .persons img {
+    width: 18px;
+}
+
+.full-seperator {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 5px;
+    border-top: 1px solid #DBDBDB;
+}
+
+.recipe-card p {
+    text-align: center;
+}
+
+@media only screen and (min-width: 1024px) and (orientation: landscape) {
+
+    html {
+        font-size: 16px;
+    }
+
+    .ingredient-img-container {
+        display: flex;
+    }
+
+    .ingredient-text-container {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .ingredient-img-container {
+        display: none;
+    }
+
+    .ingredient-text-container {
+        display: block;
+    }
+}
